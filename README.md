@@ -19,5 +19,5 @@ Par exemple dans le fichier form_widget.html5 :
   <?= $this->generateLabel() ?>
   <?= $this->generateWithError() ?>
 </div>
-<?php endif; ?>
 <?= $this->envelopeend?>
+<?php endif; ?>
