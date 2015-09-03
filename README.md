@@ -13,9 +13,9 @@ Par exemple dans le fichier form_widget.html5 :
 
 
 <?= $this->envelopebeginning?>
-<div  class="<?= $this->enveloppe['class']?><?php endif;?> <?= $this->enveloppeClass?>">
+< div class="<?= $this->enveloppe['class']?><?php endif;?> <?= $this->enveloppeClass?>">
   <?= $this->generateLabel() ?>
   <?= $this->generateWithError() ?>
-</div>
+< /div>
 <?= $this->envelopeend?>
 
